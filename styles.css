@@ -49,3 +49,569 @@ html,body{
     font-family: mark;
 
 }
+.vid{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.vid video{
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.vid p{
+    z-index: 1;
+}
+.left-body{
+    height: 100%;
+    width: 50%;
+    /* background-color: brown; */
+} 
+
+.wrapper-one{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    background-image: url(homepage_banner2_1300x650.jpg);
+}
+
+.wrapper-one-left{
+    height: 100%;
+    width: 70%;
+    /* background-color: brown; */
+    
+}
+
+
+.wrapper-one-left h1{
+    font-weight: 200;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vw;
+    font-weight: 100;
+    padding-left: 7vw;
+    padding-top: 15vw;
+
+}
+
+.wrapper-one-left a{
+    padding-left:7vw ;
+    margin-top: 5vw ;
+    text-decoration: none;
+    color: black;
+
+}
+
+.wrapper-two{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.wrapper-two-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: brown; */
+    background-image: url(woman-dressing-shop-window-720x810.jpg)
+}
+
+.wrapper-two-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    padding-top: 6vw;
+    padding-left: 4vw;
+}
+
+.wrapper-two-right p{
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+
+.wrapper-two-right h1{
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4.4vw;
+}
+
+.wrapper-two-right button{
+    padding: .8vw 2vw;
+    border-radius: 40px;
+    color:red;
+    border: 1px solid red;
+    font-size: 1.5vw;
+    background-color: white;
+}
+
+.wrapper-three{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(mastercard-cards-1300x650.jpg);
+}
+
+.wrapper-three p{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size:4.8vw;
+    padding-top: 15vw;
+    padding-left: 8vw;
+    font-weight: 300;
+    color: white;
+}
+
+.wrapper-three button{
+    padding: .8vw 2vw;
+    margin-left:8vw ;
+    border-radius: 40px;
+    margin-top: 1vw;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.wrapper-four{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(58, 56, 56);
+    padding-top: 2.5vw;
+}
+
+.upper{
+    height: 40%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.upper-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: brown; */
+    background-image: url(in-wop_1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 8vw;
+
+}
+
+.upper-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: chartreuse; */
+    padding-top: 5vw;
+    padding-left: 5vw;
+}
+
+.upper-right p{
+    font-size: 1vw;
+    padding-bottom: 1vw;
+    color: white;
+}
+
+.upper-right h4{
+    font-weight: 300;
+    font-size: 2vw;
+    color: white;
+}
+
+.upper-right a{
+    text-decoration: none;
+    color: white;
+    padding-top: 1vw;
+}
+
+
+
+.lower{
+    height: 48%;
+    width: 100%;
+    padding-top: 3vw;
+    /* background-color: rgb(204, 255, 0); */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lower-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(165, 42, 147); */
+    padding-top: 4vw;
+    padding-left: 8vw;
+}
+
+.lower-left p{
+    font-size: 1vw;
+    padding-bottom: 1vw;
+    color: white;
+}
+
+
+.lower-left h4{
+    font-weight: 300;
+    font-size: 2.2vw;
+    color: white;
+}
+
+.lower-left a{
+    text-decoration: none;
+    color: white;
+    padding-top: 1vw;
+}
+
+.lower-right{
+    height: 100%;
+    width: 45%;
+    margin-right: 8vw;
+    /* background-color: rgb(255, 85, 0); */
+    background-image: url(overhead-shot-of-woman-on-laptop-1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper-five{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.wrapper-five-left{
+    height: 100%;
+    width: 55%;
+    /* background-color: brown; */
+    background-image: url(hip-young-man-holding-phone-720x810.jpg);
+}
+
+.wrapper-five-right{
+    height: 100%;
+    width: 45%;
+    /* background-color: aqua; */
+    padding-top: 6vw;
+    padding-left: 4vw;
+}
+
+.wrapper-five-right p{
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+
+.wrapper-five-right h1{
+    font-weight: 300;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 4.5vw;
+}
+
+.wrapper-five-right button{
+    padding: .8vw 2vw;
+    border-radius: 40px;
+    color:red;
+    border: 1px solid red;
+    font-size: 1.5vw;
+    background-color: white;
+}
+
+.wrapper-six{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding-left: 8vw;
+    padding-top: 7vw;
+    padding-right: 8vw;
+}
+.text{
+    height: 10%;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.text p{
+    font-size: 3vw;
+    font-weight: 200;
+    color:black;
+}
+.containt{
+    height: 90%;
+    width: 100%;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.wrapper-six-one{
+    height: 90%;
+    width: 30%;
+    /* background-color: brown; */
+}
+
+.wrapper-six-one-up{
+    height: 50%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    background-image: url(food-truck-small-business-owners-1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper-six-one-low{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(255, 38, 0); */
+}
+
+.wrapper-six-one-low p{
+    padding-top: 1.5vw;
+    font-size: 1vw;
+}
+
+.wrapper-six-one-low h4{
+    font-weight: 300;
+    font-size: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.wrapper-six-one-low a{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper-six-two{
+    height: 90%;
+    width: 30%;
+    /* background-color: brown; */
+}
+
+.wrapper-six-two-up{
+    height: 50%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    background-image: url(female-scientist-writing-notes-1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper-six-two-low{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(255, 38, 0); */
+}
+
+.wrapper-six-two-low p{
+    padding-top: 1.5vw;
+    font-size: 1vw;
+}
+
+.wrapper-six-two-low h4{
+    font-weight: 300;
+    font-size: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.wrapper-six-two-low a{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper-six-three{
+    height: 90%;
+    width: 30%;
+    /* background-color: brown; */
+}
+
+.wrapper-six-three-up{
+    height: 50%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    background-image: url(mastercard-colleagues_1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper-six-three-low{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(255, 38, 0); */
+}
+
+.wrapper-six-three-low p{
+    padding-top: 1.5vw;
+    font-size: 1vw;
+}
+
+.wrapper-six-three-low h4{
+    font-weight: 300;
+    font-size: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.wrapper-six-three-low a{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper-seven{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(30, 29, 29);
+    padding-top: 2vw;
+    padding-left: 8vw;
+}
+
+.wrapper-seven a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+.wrapper-seven span{
+    padding-left:2vw;
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+.wrapper-eight{
+    height: 75%;
+    width: 100%;
+    background-color:rgb(14, 14, 14);
+    display: flex;
+}
+
+.wrapper-eight-left{
+    height: 75%;
+    width: 50%;
+    /* background-color: blue; */
+    padding-left: 8vw;
+    padding-top: 5vw;
+}
+
+.wrapper-eight-left img{
+    margin-bottom: 1.7vw;
+}
+
+.wrapper-eight-left h3{
+    font-weight: 300;
+    font-size: 2vw;
+    padding-bottom: 2vw;
+    color: white;
+}
+
+.wrapper-eight-right{
+    height: 75%;
+    width: 50%;
+    /* background-color: green; */
+}
+
+
+.icon{
+    display:flex;
+    flex-direction: column;
+}
+.icon a{
+    text-decoration: none;
+    margin-bottom: 1vw;
+    color: rgb(114, 110, 110);
+}
+
+.icon i{
+    font-size: 1.8vw;
+}
+
+.wrapper-eight-right{
+    height: 75%;
+    width: 50%;
+    /* background-color: rgb(0, 255, 64); */
+    padding-left: 8vw;
+    padding-top: 5vw;
+    display: flex;
+}
+
+.wrapper-eight-right-one{
+    height:100%;
+    width: 50%;
+    /* background-color: brown; */
+    color: white;
+    padding-top: 5vw;
+}
+
+.wrapper-eight-right-one p{
+    margin-bottom: 3vw;
+}
+
+.wrapper-eight-right-one a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5vw;
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper-eight-right-two{
+    height:100%;
+    width: 50%;
+    /* background-color: rgb(87, 42, 165); */
+    color: white;
+    padding-top: 5vw;
+}
+.wrapper-eight-right-two p{
+    margin-bottom: 3vw;
+}
+
+.wrapper-eight-right-two a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5vw;
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper-eight-bottom{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(22, 23, 23);
+    /* border-top: 1px solid white; */
+    padding-left: 8wv;
+    padding-right: 8vw;
+    padding-top: 4.5vw;
+}
+
+.bottom-text{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.bottom-text p{
+    padding-left: 8vw;
+    padding-right: 6vw;
+    color: white;
+}
+
+.bottom-text a{
+    text-decoration: none;
+    margin-right: 1.5vw;
+    color: white;
+}
+
+.bottom-text h5{
+    padding-left: 25vw;
+    font-size: 1.5vw;
+    font-weight: 300;
+    color: white;
+}
+
+.bottom-text i{
+    font-size: 2vw;
+}
+
+.last-icon{
+    padding-left: 3vw;
+    font-size: 900;
+    color: white;
+}
